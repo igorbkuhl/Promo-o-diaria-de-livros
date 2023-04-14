@@ -1,0 +1,36 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#introduction {
+    display: grid;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+#introduction h1, #introduction p {
+    margin: 10px;
+}
+
+#description, #obs {
+    color: rgb(151, 151, 151);
+}
+
+#email, #submit {
+    font-size: 14px;
+}
+
+#obs {
+    display: grid;
+    font-size: 12px;
+    justify-items: center;
+}
+
+#submit {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 12px;
+}
