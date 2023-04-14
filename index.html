@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Promoção diária de sorteio de livro"/>
+    <meta name="author" content="Igor Borges Kühl"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Promoção diária de livros</title>
+    <link rel="stylesheet" type="text/css" href="css/página.css">
+    <link rel="stylesheet" type="text/css" href="css/textos.css">
+</head>
+<body>
+    <div id="all-content">
+        <main>
+            <header>
+                <div id="stripe"></div>
+            </header>
+            <div id="main-content">
+                <div id="introduction">
+                    <h1 id="title">Promoção livro do dia</h1>
+                    <p id="description">Se inscreva para concorrer ao sorteio do livro do dia de hoje.</p>
+                    <p>Livro de hoje: <b id="book-title">______</b>, de <span id="book-author">______</span></p>
+                </div>
+                <div id="form">
+                    <form id="inputs" action="#">
+                        <input id="email" type="mail" name="Mail" placeholder="Insira aqui seu email" autofocus required/>
+                        <input id="submit" type="submit" name="Submit" value="Assine agora!"/>
+                    </form>
+                    <span id="response"></span>
+                </div>
+                <div>
+                    <p id="obs">* Todo dia um título diferente em promoção!</p>
+                </div>
+            </div>
+            <footer>Todos os direitos reservados &copy; 2023 Instituto Evoluir</footer>
+        </main>
+    </div>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
